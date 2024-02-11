@@ -1,0 +1,12 @@
+- params:
+    git:
+      repoName: flask-webgoat
+      branches:
+        - master
+      aggregateFixes: true
+    scan:
+      includeAllVulnerabilities: true
+      failOnSecurityIssues: false
+      projects:
+        - pipRequirementsFile: "requirements.txt"
+        - pipRequirementsFile: "build-requirements.txt"
