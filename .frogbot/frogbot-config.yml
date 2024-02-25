@@ -3,7 +3,7 @@
       repoName: flask-webgoat
       branches:
         - master
-      aggregateFixes: true
+      aggregateFixes: false
     scan:
       includeAllVulnerabilities: true
       failOnSecurityIssues: false
