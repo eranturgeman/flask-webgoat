@@ -9,4 +9,6 @@
       failOnSecurityIssues: false
       projects:
         - pipRequirementsFile: "requirements.txt"
+          uniqueIdentifier: "requirements.txt"
         - pipRequirementsFile: "build-requirements.txt"
+          uniqueIdentifier: "build-requirements.txt"
