@@ -1,6 +1,6 @@
 - params:
     git:
-      repoName: my-repo
+      repoName: flask-webgoat
       branches:
         - master
       aggregateFixes: true
