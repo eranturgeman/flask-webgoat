@@ -4,7 +4,7 @@
       branches:
         - master
       aggregateFixes: false
-      uploadSbomToVcs: true
+      uploadSbomToVcs: false
     scan:
       includeAllVulnerabilities: true
       failOnSecurityIssues: false
