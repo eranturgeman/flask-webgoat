@@ -4,11 +4,12 @@
       branches:
         - master
       aggregateFixes: false
+      #uploadSbomToVcs: true
     scan:
       includeAllVulnerabilities: true
       failOnSecurityIssues: false
       projects:
         - pipRequirementsFile: "requirements.txt"
-          projectName: "project#1"
-        - pipRequirementsFile: "build-requirements.txt"
-          projectName: "project#2"
+          #projectName: "project#1"
+        #- pipRequirementsFile: "build-requirements.txt"
+          #projectName: "project#2"
