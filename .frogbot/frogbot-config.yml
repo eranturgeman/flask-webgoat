@@ -10,6 +10,3 @@
       failOnSecurityIssues: false
       projects:
         - pipRequirementsFile: "requirements.txt"
-          #projectName: "project#1"
-        #- pipRequirementsFile: "build-requirements.txt"
-          #projectName: "project#2"
